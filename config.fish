@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     set -x QT_QPA_PLATFORMTHEME "qt5ct"
     set -x QT_QPA_PLATFORM "xcb"
+    set -x TERM xterm-256color
 end
 
 cat ~/.cache/wal/sequences
